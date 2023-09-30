@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">PruebaFirebase</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="correo">Correo electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="singin">Registrarse</string>
+    <string name="cer_sesion">Cerrar sesión</string>
+    <string name="rep_pass">Repite la contraseña</string>
+    <string name="reg_usuario">Registrar nuevo usuario</string>
+    <string name="add_recurso">Añadir película</string>
+    <string name="tit_datos">Introducción de datos</string>
+    <string name="titulo">Título</string>
+    <string name="year">Año</string>
+    <string name="director">Director</string>
+    <string name="reparto">Reparto</string>
+    <string name="sinopsis">Sinopsis</string>
+    <string name="registro">Registro</string>
+    <string name="add_imagen">Añadir imagen</string>
+    <string name="del_imagen">Eliminar imagen</string>
+</resources>

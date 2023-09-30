@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginVertical="16dp"
+    tools:context=".HomeActivity">
+
+   <TextView
+       android:id="@+id/txtUsuario"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center"
+
+       style="@style/inicio"
+       android:layout_marginBottom="100dp"
+       android:text=""/>
+
+   <androidx.recyclerview.widget.RecyclerView
+       android:id="@+id/lista"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_weight="2"/>
+
+   <Button
+       android:id="@+id/add_peli"
+       style="@style/boton"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_weight="3"
+       android:text="@string/add_recurso" />
+</LinearLayout>

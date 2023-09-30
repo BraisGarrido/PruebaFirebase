@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "117647718956",
+    "project_id": "pruebafirebase-d7047",
+    "storage_bucket": "pruebafirebase-d7047.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:117647718956:android:87d5a88f03f6c3c25caf89",
+        "android_client_info": {
+          "package_name": "com.sixtema.pruebafirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "117647718956-i3v7tng684t8lj1g6vkk8dfl7pvmjj8s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sixtema.pruebafirebase",
+            "certificate_hash": "b891493dbf4cb321af9999215f298234af57d7f5"
+          }
+        },
+        {
+          "client_id": "117647718956-t6p73kjd1lc53hjdbk48973hqj1ls890.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKvcluv1DiJnCTijOZpTDvsdL9WlVbf9o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "117647718956-t6p73kjd1lc53hjdbk48973hqj1ls890.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
