@@ -47,7 +47,7 @@ public class HomeActivity extends AppCompatActivity {
 
         lista.setAdapter(adapter);
 
-        firebaseDatabase= FirebaseDatabase.getInstance("https://pruebafirebase-d7047-default-rtdb.europe-west1.firebasedatabase.app");
+        firebaseDatabase= FirebaseDatabase.getInstance("");
         firebaseDatabase.getReference("pelicula").addValueEventListener(new ValueEventListener() {
 
             @Override
