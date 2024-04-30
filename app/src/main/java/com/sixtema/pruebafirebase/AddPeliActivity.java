@@ -71,10 +71,10 @@ public class AddPeliActivity extends AppCompatActivity {
         upl_imagen=(ImageView) findViewById(R.id.upl_imagen);
 
         mAuth=FirebaseAuth.getInstance();
-        firebaseDatabase=FirebaseDatabase.getInstance("https://pruebafirebase-d7047-default-rtdb.europe-west1.firebasedatabase.app");
-        databaseReference=firebaseDatabase.getReference("pelicula");
+        firebaseDatabase=FirebaseDatabase.getInstance("");
+        databaseReference=firebaseDatabase.getReference("");
         
-        storageReference=FirebaseStorage.getInstance("gs://pruebafirebase-d7047.appspot.com").getReference();
+        storageReference=FirebaseStorage.getInstance("").getReference();
 
 
         /*-----------------------------------------------------Eventos de click-------------------------------------------------------------------*/
